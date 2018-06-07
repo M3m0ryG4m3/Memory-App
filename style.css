@@ -99,7 +99,7 @@ transform-style: preserve-3d;
   transform:rotateY(180deg);
   z-index 1;
   font-size:250%;
-  backgrond-color: blue;
+  background-color: blue;
 }
 
 #board {
