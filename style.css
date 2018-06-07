@@ -97,8 +97,9 @@ transform-style: preserve-3d;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transform:rotateY(180deg);
-z-index 1;
+  z-index 1;
   font-size:250%;
+  backgrond-color: blue;
 }
 
 #board {
