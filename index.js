@@ -41,7 +41,6 @@ function drawBoard(event) {
 
 function endOfGame() {
   if(board.getElementsByClassName('tile').length == board.getElementsByClassName('flipped').length){
-  alert('Tillykke Du Fandt Alle Stik!')
   document.getElementById('message').classList.add('show')}
 }
 
