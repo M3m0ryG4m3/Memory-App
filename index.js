@@ -74,7 +74,7 @@ function twoTiles(){
   tilesFlipped = [];
   tilesMatch = [];
   setTimeout(endOfGame,500);
-  document.getElementById('board').style.pointerEvents = 'auto;'
+  document.getElementById('board').style.pointerEvents = 'auto';
 } else{
   setTimeout(flipBack, 1200)
 }
