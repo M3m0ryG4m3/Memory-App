@@ -1,6 +1,7 @@
 const tileImgs = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '12', '13'];
 let tilesFlipped = [];
 let tilesMatch = [];
+let flipCounter = 0;
 
 
 Array.prototype.doubleShuffle = function()
@@ -61,7 +62,9 @@ function flipBack(){
 }
 function twoTiles(){
   if(tilesFlipped.length >= 2) {
-  document.getElementById('board').style.pointerEvents = 'none;'
+  document.getElementById('board').style.pointerEvents = 'none';  
+  flipCounter += 1; 
+  document.getElementById('counter').innerHTML = flipCounter;
   if(tilesMatch[0] == tilesMatch[1]) {
   var allTiles = board.getElementsByClassName('tile')
   allTiles[parseInt(tilesFlipped[0])].classList.add('reward');
