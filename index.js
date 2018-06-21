@@ -60,7 +60,7 @@ function flipBack(){
   allTiles[parseInt(tilesFlipped[1])].classList.remove('flipped');
   tilesFlipped = [];
   tilesMatch = [];
-  document.getElementById('board').style.pointerEvents = 'auto;'
+  document.getElementById('board').style.pointerEvents = 'auto';
 }
 function twoTiles(){
   if(tilesFlipped.length >= 2) {
